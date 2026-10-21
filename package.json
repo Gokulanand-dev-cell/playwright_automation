@@ -1,0 +1,26 @@
+{
+  "name": "playwright_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gokulanand-dev-cell/playwright_automation.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gokulanand-dev-cell/playwright_automation/issues"
+  },
+  "homepage": "https://github.com/Gokulanand-dev-cell/playwright_automation#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
