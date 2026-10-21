@@ -1,7 +1,10 @@
 import {Given, When} from "@cucumber/cucumber";
-import {Page, expect} from "@playwright/test";
+import {Page, expect, Browser} from "@playwright/test";
+
+
 
 Given('User able to launch the url', async function(page){
+    
     await page.goto('https://saucelabs.com/')
 })
 
